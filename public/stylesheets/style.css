@@ -4,7 +4,7 @@ a {color:#20BE76;text-decoration:none;}
 a:hover {text-decoration:underline;}
 
 /*common*/
-aside {float:left;width:250px;height:100%;margin-right:20px;overflow:auto;overflow-x:hidden;overflow-y:auto;background:#f3f3f3;box-shadow:2px 0 1px rgba(0,0,0,.2);}
+aside {float:left;width:220px;height:100%;margin-right:20px;overflow:auto;overflow-x:hidden;overflow-y:auto;background:#f3f3f3;box-shadow:2px 0 1px rgba(0,0,0,.2);}
 
 aside a {display:block;margin:10px 10px;}
 
