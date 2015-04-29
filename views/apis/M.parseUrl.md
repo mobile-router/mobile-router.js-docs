@@ -8,22 +8,4 @@
 
 ### 返回值
 
-一个对象，该对象包含如下信息：
-
-* url: 完整 url
-
-* rurl: 去除hash的 url
-
-* host: host
-
-* hash: hash 不带#
-
-* protocol: 协议
-
-* origin: origin
-
-* pathname: path
-
-* search: search
-
-* port: 端口
+一个对象，该对象和 [M.parseLocation](/M.parseLocation) 的返回值信息是一样的。

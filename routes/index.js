@@ -16,6 +16,7 @@ router.use(function(req, res, next) {
 			}
 		});
 		files.sort();
+		// todo 排序
 		next();
 	});
 });
