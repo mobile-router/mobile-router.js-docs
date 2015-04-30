@@ -26,7 +26,7 @@
 
 	* `viewsSelector`: `String` 类型值，views 容器选择器，如果为空，或者没有符合元素，那么 views 的容器元素就为 body 了
 
-	* `viewClass`: `String` 类型值，每个 view 的 class ，注意只能是单个的 class ，不能是 `"a b"` 这样的
+	* `viewClass`: `String` 类型值，每个 view 需要增加的其他 class ，例如 `"page-view2 page-view3"` ，因为每一个page view 默认会有 `page-view` 的 class 
 
 	* `animation`: `Boolean` 类型值，是否有动画
 
