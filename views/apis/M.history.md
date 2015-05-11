@@ -6,7 +6,7 @@
 
 `M.history` 会触发一些事件：
 
-* `inited`: 在 [start](/start) 之后触发
+* `inited`: 在 [start](/M.history.start) 之后触发
 
 * `change`: 在每次历史发生改变时触发
 
