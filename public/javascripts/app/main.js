@@ -1,7 +1,7 @@
 require.config({
   baseUrl: '/javascripts/app/',
   paths: {
-    'm.router': '/javascripts/lib/m'
+    'm.router': '/javascripts/lib/m.min'
   }
 });
 
