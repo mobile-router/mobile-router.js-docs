@@ -16,6 +16,12 @@
 
 	* `getTemplate`: 一个函数，用于得到模板字符串；如果需要异步获取模板，那么这个函数要带有一个参数，这个参数是一个函数，在得到模板之后调用他，当然参数就是得到的模板字符串
 
+	* `onActive`: 一个函数，匹配到路由后但还没有创建page-view的元素时候，和`routeChangeStart`的时机一样的的回调 （1.5.5+）
+
+	* `redirectTo`: 一个字符串或者函数；如果说当前的route配置项中没有getTemplate，那么会直接redirect；但是如果有getTemplate，那么此时会表现的像正常的route一样依旧会创建`page-view`、会调用回调函数们、会做动画等，当正常行为结束之后（route的callback被调用之后）会触发redirectTo的逻辑（1.5.5+）
+
+	* `redirectPushState`: 布尔值，默认true，当激活redirectTo的时候是否启用`pushState`（1.5.5+）
+	
 	* `onEnter`: 一个函数，当 view 页将要显示时候的回调 （1.5.3+）
 
 	* `onLeave`: 一个函数，当 view 页将要隐藏的时候的回调（1.5.3+）
