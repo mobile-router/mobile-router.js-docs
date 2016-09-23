@@ -30,6 +30,8 @@ require(['m.router', 'home'], function(M, home) {
     }
   });
 
-  M.history.start();
+  M.history.start({
+    history: true
+  });
 
 });
